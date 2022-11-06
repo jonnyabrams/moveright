@@ -1,7 +1,10 @@
 import { Bars3Icon, UserIcon } from "@heroicons/react/24/solid";
 import { HomeIcon } from "@heroicons/react/24/outline";
+import { useRouter } from "next/router";
 
 const Header = () => {
+  const router = useRouter();
+
   return (
     <div>
       <header className="sticky top-0 z-50 flex justify-between bg-white p-3 md:px-10">
@@ -11,7 +14,7 @@ const Header = () => {
         </div>
 
         {/* center */}
-        <div className="flex items-center space-x-1">
+        <div className="flex items-center space-x-1 cursor-pointer" onClick={() => router.push("/")}>
           <span className="font-serif font-bold text-xl">moveright</span>
           <HomeIcon className="h-5 w-5 text-[#08dcb5]" />
         </div>
