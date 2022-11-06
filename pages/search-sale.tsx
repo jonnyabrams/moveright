@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Search from "../components/Search";
 
-const SaleSearch = () => {
+const SearchSale = () => {
   return (
     <div>
       <Header />
@@ -12,4 +12,4 @@ const SaleSearch = () => {
   );
 };
 
-export default SaleSearch;
+export default SearchSale;
