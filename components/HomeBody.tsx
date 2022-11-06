@@ -7,10 +7,10 @@ const HomeBody = () => {
   return (
     <div className="bg-gray-100 flex flex-col items-center space-y-2 p-6 md:text-lg">
       <HomeBodyCard title="My saved properties" icon={<HeartIcon className="h-5 mr-2 text-red-600" />} />
-      <HomeBodyCard title="My saved searched & alerts" icon={<StarIcon className="h-5 mr-2 text-yellow-500" />} />
-      <HomeBodyCard title="Sold prices search" icon={<CurrencyPoundIcon className="h-5 mr-2 text-[#08dcb5]" />} />
-      <HomeBodyCard title="Request agent valuation" icon={<TagIcon className="h-5 mr-2 text-green-600" />} />
-      <HomeBodyCard title="Overseas properties" icon={<SunIcon className="h-7 mr-2 text-yellow-500" />} />
+      <HomeBodyCard title="My saved searches & alerts" icon={<StarIcon className="h-5 mr-2 text-yellow-500" />} />
+      <HomeBodyCard title="Sold prices search" icon={<CurrencyPoundIcon className="h-5 mr-2 text-[#08dcb5]" />} text="See what properties in your local area sold for" />
+      <HomeBodyCard title="Request agent valuation" icon={<TagIcon className="h-5 mr-2 text-green-600" />} text="Accurate market valuation from local property experts" />
+      <HomeBodyCard title="Overseas properties" icon={<SunIcon className="h-5 mr-2 text-yellow-500" />} />
       <HomeBodyCard title="Commercial property for sale" icon={<BuildingOfficeIcon className="h-5 mr-2" />} />
       <HomeBodyCard title="Commercial property for rent" icon={<BuildingOffice2Icon className="h-5 mr-2 text-gray-400" />} />
 
