@@ -6,7 +6,7 @@ const SearchSale = () => {
   return (
     <div>
       <Header />
-        <Search title="sale" />
+      <Search title="sale" />
       <Footer />
     </div>
   );

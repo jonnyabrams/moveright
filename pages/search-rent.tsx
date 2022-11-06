@@ -6,7 +6,7 @@ const SearchRent = () => {
   return (
     <div>
       <Header />
-        <Search title="rent" />
+      <Search title="rent" />
       <Footer />
     </div>
   );
