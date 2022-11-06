@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="text-red-500">Hey</h1>
+      <Header />
     </div>
   );
 };
