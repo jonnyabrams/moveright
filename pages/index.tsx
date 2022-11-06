@@ -14,14 +14,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
       <section>
         <Banner />
       </section>
       <section>
         <HomeBody />
       </section>
-      <Footer />
     </div>
   );
 };

@@ -5,9 +5,7 @@ import Search from "../components/Search";
 const SearchRent = () => {
   return (
     <div>
-      <Header />
       <Search title="rent" />
-      <Footer />
     </div>
   );
 };

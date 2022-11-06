@@ -5,9 +5,7 @@ import Search from "../components/Search";
 const SearchSale = () => {
   return (
     <div>
-      <Header />
       <Search title="sale" />
-      <Footer />
     </div>
   );
 };
