@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Banner from "../components/Banner";
 import Header from "../components/Header";
+import HomeBody from "../components/HomeBody";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
       </Head>
 
       <Header />
+      <Banner />
+      <HomeBody />
     </div>
   );
 };
