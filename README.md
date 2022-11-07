@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moveright
 
-## Getting Started
+This is a very basic Rightmove website clone I made as a front end design exercise using Next.js, TypeScript and Tailwind CSS. My aim was largely to emulate the UI, so there's very little functionality as things stand. 
 
-First, run the development server:
+A user can click on the For Sale or To Rent buttons and be taken to a search bar where they're prompted to enter a location. After they do so, they're shown a list of properties from data I stored in JSON form at https://json.extendsclass.com/bin/315eab1236da.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The list of properties will be the same every time, but they'll be displayed as being a) either for sale or rent, depending on which search input the user used, and b) in the searched-for location. These values are passed as queries using the useRouter hook.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Obviously with more time, I would have liked to draw from a larger pool of data and implemented proper search filters. I could have done this with an external API, but I wanted my data to have very specific properties in order keep it as close as possible to the real Rightmove.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Jonny Abrams](https://github.com/jonnyabrams)
